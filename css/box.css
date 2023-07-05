@@ -1,0 +1,21 @@
+.box {
+    background-color: bisque;
+    border: 1px solid red;
+    border: 5px;
+}
+
+.box2 {
+    background-size: auto;
+    
+    background-image: cover;
+}
+.box3{
+    background-color: rgb(238, 76, 17);
+    border-radius: 5%;
+    display: flex;
+    align-content: center;
+    font-family:  Arial, sans-serif;
+    font-size: large;
+    font-style:normal;
+
+}

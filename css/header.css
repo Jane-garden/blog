@@ -1,0 +1,28 @@
+.header {
+    grid-area: hd;
+}
+
+#subheader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#home {
+    grid-area: hd;
+    grid-column: 1;
+}
+
+#plan {
+    grid-area: hd;
+    grid-column: 2;
+}
+
+#contact {
+    grid-area: hd;
+    grid-column: 3;
+}
+
+#about {
+    grid-area: hd;
+    grid-column: 4;
+}

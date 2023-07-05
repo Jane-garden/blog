@@ -1,0 +1,43 @@
+@import url("header.css");
+    body{
+        background-color:darkgray;
+    }
+    .container{
+        
+        background-color: cornsilk;
+        margin-top: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: repeat(4,fr);
+        grid-template-areas: "hd"
+        "sd"
+        "main"
+        "ft";
+        border-color: blue;
+        
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .box{
+        width: 80%;
+        margin-top: 20px;
+        color: bisque solid 1px;
+        align-content: center;
+        
+
+    }
+    .header{
+        grid-area: hd;
+
+    }
+    .content{
+        grid-area: main;
+        
+    }
+    .footer{
+        grid-area:ft;
+    }

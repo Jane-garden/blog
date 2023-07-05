@@ -1,0 +1,21 @@
+.sd {
+    grid-area:  sd;
+    
+    
+}
+
+.content {
+    grid-area: main;
+    height: fit-content;
+   
+}
+
+#nestGrid {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:45% 45%;
+    
+    
+    grid-gap: 20px;
+}
+
